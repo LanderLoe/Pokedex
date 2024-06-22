@@ -1,0 +1,27 @@
+/* Sección Detalle de Pokémon */
+
+/* Botones */
+.btn-morado {
+    background-color: #ab47bc;
+    color: #fff;
+}
+.btn-verde {
+    background-color: #66bb6a;
+    color: #fff;
+}
+.btn-rojo {
+    background-color: #ef5350;
+    color: #fff;
+}
+.btn-rosa {
+    background-color: #ec407a;
+    color: #fff;
+}
+.btn-gris {
+    background-color: #78909c;
+    color: #fff;
+}
+.btn-azul {
+    background-color: #42a5f5;
+    color: #fff;
+}
