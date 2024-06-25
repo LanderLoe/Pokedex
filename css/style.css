@@ -1,0 +1,10 @@
+.bannerImg {
+  height: 250px;
+  object-fit: cover;
+}
+
+@media all and (min-width: 992px) {
+  .bannerImg {
+    height: 450px;
+  }
+}
