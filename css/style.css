@@ -1,9 +1,20 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 main {
-    flex-grow: 1;
+  flex-grow: 1;
+}
+
+.bannerImg {
+  height: 250px;
+  object-fit: cover;
+}
+
+@media all and (min-width: 992px) {
+  .bannerImg {
+    height: 450px;
+  }
 }
