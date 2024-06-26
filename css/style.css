@@ -18,3 +18,37 @@ main {
     height: 450px;
   }
 }
+
+.btnTipo {
+  padding: 0px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.btn-morado {
+  background-color: #c552da;
+  color: #fff;
+}
+.btn-morado:hover {
+  background-color: #8e24aa;
+  color: #fff;
+}
+
+.btn-verde {
+  background-color: #78cd48;
+  color: #fff;
+}
+.btn-verde:hover {
+  background-color: #43a047;
+  color: #fff;
+}
+
+.btn-naranja {
+  background-color: #fe7621;
+  color: #fff;
+}
+.btn-naranja:hover {
+  background-color: #ff6200;
+  color: #fff;
+}
