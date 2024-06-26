@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Enciclopedia de Pokémons" />
+    <meta
+      name="keywords"
+      content="enciclopedia, wikipedia, pokédex, pokémon, bulbasaur, ivysaur, venusaur, charmander, charmeleon, charizard, squirtle, caterpie, butterfree, bootstrap, bs, proyecto, argentina"
+    />
+    <meta
+      name="author"
+      content="Felicitas Rallé, Leonel Leandro Lobos, Luis Fernando Avila, Matias Nicolás Salazar"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../css/detalles.css" />
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-danger text-white">
+        <div class="container">
+          <a class="navbar-brand text-light" href="../index.html">Pokedex</a>
+          <button
+            class="navbar-toggler text-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarPokedex"
+            aria-controls="navbarPokedex"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarPokedex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light opacity-50"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Categoria
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="./Nosotros.html"
+                      >Nosotros</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./Detalles.html"
+                      >Poke Detalles</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar un Pokemon"
+                aria-label="Buscar"
+              />
+              <button class="btn btn-outline-light" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <main>
+        <section class="bg-danger py-5 text-center">
+          <h1 class="text-white">Detalle de Pokémon</h1>
+        </section>
+        <section class="container my-5">
+          <div class="my-3 d-flex justify-content-center align-items-center">
+            <h2 class="fs-1">Bulbasaur</h2>
+            <span class="ms-2 mb-2 fs-1 text-secondary">N&deg; 001</span>
+          </div>
+          <article class="row my-5">
+            <ul
+              class="mb-3 col-md-6 list-unstyled d-flex align-items-center img-contenedor"
+            >
+              <li class="mb-3">
+                <img
+                  class="img-fluid img-zoom"
+                  src="../img/Bulbasaur.png"
+                  alt="Imágen de un pokémon"
+                />
+              </li>
+            </ul>
+            <ul class="mb-3 col-md-6 list-unstyled">
+              <li>
+                <p class="text-black">
+                  Este Pokémon nace con una semilla en el lomo, se alimenta de sus
+                  nutrientes y brota con el paso del tiempo
+                </p>
+              </li>
+              <ul class="mb-3 list-unstyled">
+                <li class="card text-bg-success text-white">
+                  <div class="card-header">Versiones</div>
+                  <div class="row card-body">
+                    <div class="col-6">
+                      <div class="mb-3">
+                        <h5 class="card-title">Altura</h5>
+                        <p class="card-text">0,7 m</p>
+                      </div>
+                      <div class="mb-3">
+                        <h5 class="card-title">Peso</h5>
+                        <p class="card-text">6,9 kg</p>
+                      </div>
+                      <div class="mb-3">
+                        <h5 class="card-title">Género</h5>
+                        <img
+                          src="../img/gender-male.svg"
+                          alt="Género masculino"
+                        />
+                        <img
+                          src="../img/gender-female.svg"
+                          alt="Género femenino"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="mb-3">
+                        <h5 class="card-title">Categoría</h5>
+                        <p class="card-text">Semilla</p>
+                      </div>
+                      <div class="mb-3">
+                        <h5 class="card-title">Habilidad</h5>
+                        <p class="card-text">Espesura</p>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <li class="mb-3">
+                <h5>Tipo</h5>
+                <button type="button" class="btn btn-verde">Planta</button>
+                <button type="button" class="btn btn-morado">Veneno</button>
+              </li>
+              <li class="mb-3">
+                <h5>Debilidad</h5>
+                <button type="button" class="btn btn-rojo">Fuego</button>
+                <button type="button" class="btn btn-azul">Hielo</button>
+                <button type="button" class="btn btn-rosa">Psíquico</button>
+                <button type="button" class="btn btn-gris">Volador</button>
+              </li>
+            </ul>
+          </article>
+          <section class="container my-5">
+            <article class="row py-3 bg-body-secondary rounded-4">
+              <h2>Evoluciones</h2>
+              <ul class="col-md-4 list-unstyled text-center img-contenedor">
+                <li>
+                  <img
+                    class="img-fluid img-zoom"
+                    src="../img/Bulbasaur.png"
+                    alt="Pokémon Bulbasaur"
+                  />
+                  <div class="d-flex justify-content-center align-items-center">
+                    <h5>Bulbasaur</h5>
+                    <span class="ms-2 mb-2 fs-5 text-secondary">N&deg; 001</span>
+                  </div>
+                  <button type="button" class="btn btn-verde">Planta</button>
+                  <button type="button" class="btn btn-morado">Veneno</button>
+                </li>
+              </ul>
+              <ul class="col-md-4 list-unstyled text-center img-contenedor">
+                <li>
+                  <img
+                    class="img-fluid img-zoom"
+                    src="../img/Ivysaur.png"
+                    alt="Pokémon evolución a Ivysaur"
+                  />
+                  <div class="d-flex justify-content-center align-items-center">
+                    <h5>Ivysaur</h5>
+                    <span class="ms-2 mb-2 fs-5 text-secondary">N&deg; 002</span>
+                  </div>
+                  <button type="button" class="btn btn-verde">Planta</button>
+                  <button type="button" class="btn btn-morado">Veneno</button>
+                </li>
+              </ul>
+              <ul class="col-md-4 list-unstyled text-center img-contenedor">
+                <li>
+                  <img
+                    class="img-fluid img-zoom"
+                    src="../img/Venusaur.png"
+                    alt="Pokémon evolución a Venusaur"
+                  />
+                  <div class="d-flex justify-content-center align-items-center">
+                    <h5>Venusaur</h5>
+                    <span class="ms-2 mb-2 fs-5 text-secondary">N&deg; 003</span>
+                  </div>
+                  <button type="button" class="btn btn-verde">Planta</button>
+                  <button type="button" class="btn btn-morado">Veneno</button>
+                </li>
+              </ul>
+            </article>
+          </section>
+        </section>
+      </main>
+    </main>
+    <footer class="container-fluid p-4 bg-dark text-light text-center">
+      &copy;Todos los derechos reservados
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

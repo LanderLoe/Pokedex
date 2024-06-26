@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.bannerImg {
+  height: 250px;
+  object-fit: cover;
+}
+
+@media all and (min-width: 992px) {
+  .bannerImg {
+    height: 450px;
+  }
+}
+
+.btnTipo {
+  padding: 0px 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.btn-morado {
+  background-color: #c552da;
+  color: #fff;
+}
+.btn-morado:hover {
+  background-color: #8e24aa;
+  color: #fff;
+}
+
+.btn-verde {
+  background-color: #78cd48;
+  color: #fff;
+}
+.btn-verde:hover {
+  background-color: #43a047;
+  color: #fff;
+}
+
+.btn-naranja {
+  background-color: #fe7621;
+  color: #fff;
+}
+.btn-naranja:hover {
+  background-color: #ff6200;
+  color: #fff;
+}
+
+.btn-gris {
+  background-color: #9eadb4;
+  color: #fff;
+}
+.btn-gris:hover {
+  background-color: #546e7a;
+  color: #fff;
+}
+
+.btn-azul {
+  background-color: #42a5f5;
+  color: #fff;
+}
+.btn-azul:hover {
+  background-color: #1e88e5;
+  color: #fff;
+}
